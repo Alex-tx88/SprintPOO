@@ -1,0 +1,14 @@
+C:\Users\021.885062\SprintPOO\bin\Debug\net10.0\SprintPOO.exe
+C:\Users\021.885062\SprintPOO\bin\Debug\net10.0\SprintPOO.deps.json
+C:\Users\021.885062\SprintPOO\bin\Debug\net10.0\SprintPOO.runtimeconfig.json
+C:\Users\021.885062\SprintPOO\bin\Debug\net10.0\SprintPOO.dll
+C:\Users\021.885062\SprintPOO\bin\Debug\net10.0\SprintPOO.pdb
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.AssemblyInfoInputs.cache
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.AssemblyInfo.cs
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.csproj.CoreCompileInputs.cache
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.dll
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\refint\SprintPOO.dll
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.pdb
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\SprintPOO.genruntimeconfig.cache
+C:\Users\021.885062\SprintPOO\obj\Debug\net10.0\ref\SprintPOO.dll
