@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SprintPOO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+768ba9d39d1bc879dd2f78acf9615cc3b1cda560")]
 [assembly: System.Reflection.AssemblyProductAttribute("SprintPOO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SprintPOO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
