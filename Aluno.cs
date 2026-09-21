@@ -3,11 +3,11 @@ using System.Linq.Expressions;
 public class Aluno:Pessoa
 {
     public int Matricula {get; private set;}
-    public List<double> Notas {get; private set;} 
+    public List<double> Notas {get; private set;}
     public string Serie{ get; private set;}
     public string Turma{get; private set;}
 
-    public Aluno(string nome, string cpf, int telefone, string email, int matricula, string serie, string turma): base(nome, cpf, telefone, email)
+    public Aluno(string nome, string cpf, long telefone, string email, int matricula, string serie, string turma): base(nome, cpf, telefone, email)
     {
       
 
@@ -31,26 +31,36 @@ public class Aluno:Pessoa
     }
 
 
-    public void CalcularMedia()
+    public double CalcularMedia()
     {
-        if(Notas.Any() == true)
+        if( Notas== null || !Notas.Any())
         {
-              Notas.Average();
+              return 0.0;
               
         }
-    
-    else
-    {
-         0.0;
+        else
+        {
+         return Notas.Average();
+        }
     }
+
+    public void ExibirBoletim()
+    {
+        
     }
 
     public void ExibirMedia()
-    {
-        if(N >=6 )
+    {       
+        double Media = CalcularMedia();
+        if (Media>=6.0)
         {
-            
+            Console.WriteLine($"O aluno {base.Nome} tirou {CalcularMedia()} e está aprovado!");
         }
+        else
+        {
+            Console.WriteLine($"O aluno {base.Nome}, tirou {CalcularMedia()} e está reprovado");
+        }
+
         
     }
 
