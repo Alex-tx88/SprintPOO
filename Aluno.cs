@@ -10,7 +10,6 @@ public class Aluno:Pessoa
     public Aluno(string nome, string cpf, long telefone, string email, int matricula, string serie, string turma): base(nome, cpf, telefone, email)
     {
       
-
         Matricula = matricula;
         Notas = new List<double>();
         Serie = serie;

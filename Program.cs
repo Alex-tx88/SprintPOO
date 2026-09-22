@@ -4,17 +4,39 @@
     {
         static void Main()
         {
-            Aluno a1 = new Aluno("Alex", "10352958570", 71988327557,"alexteix@gmail.com",021885062,"2°Ano","Matutino");
+            Console.WriteLine("=======Sistema de Gestão Acadêmica======");
+            Console.WriteLine("=======Cadastre um Aluno ou Professor=======");
+            Console.WriteLine("1. Cadastre um aluno \n2. Cadastre um Professor");
             
-            a1.AdicionarNota(7.0);
-            a1.AdicionarNota(4.6);
-            a1.AdicionarNota(6.0);
-            a1.AdicionarNota(5.0);
-            a1.CalcularMedia();
-            a1.ExibirMedia();
+            while (true)
+            {
+                Console.WriteLine("Selecione uma opção:");
+            
+            if(int.TryParse(Console.ReadLine(), out int num)){
+            switch (num)
+            {
+                case 1:
+                Console.WriteLine("Cadastrando Aluno...");
 
+                break;
+
+                case 2:
+                Console.WriteLine("Cadastrando Professor...");
+
+                break;
+                
+                default:
+                Console.WriteLine("Opção inválida! Escolha um número do menu.");
+                continue;
+            }
 
             
+            }else{
+                Console.WriteLine("Numero inválido! Digite apenas números validos");
+            }
+
+            
+            }
         }
     }
 
