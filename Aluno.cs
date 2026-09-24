@@ -7,7 +7,7 @@ public class Aluno:Pessoa
     public string Serie{ get; private set;}
     public string Turma{get; private set;}
 
-    public Aluno(string nome, string cpf, string telefone, string email, int matricula, string serie, string turma): base(nome, cpf, telefone, email)
+    public Aluno(string nome, string cpf, string telefone, string email, DateOnly datanascimento ,int matricula, string serie, string turma): base(nome, cpf, telefone, email, datanascimento)
     {
       
         Matricula = matricula;
@@ -17,17 +17,15 @@ public class Aluno:Pessoa
    
     }
 
-    public void AdicionarNota(double notaSerie)
+    public override void ExibirDetalhes()
     {
-        Notas.Add(notaSerie);
-        Console.WriteLine($"Nota {notaSerie} adicionada com sucesso!");
+        Console.WriteLine("======= Aluno =======");
+        base.ExibirDetalhes();
+        Console.WriteLine($"Matricula: {Matricula} \nNotas: {Notas} \nSerie: {Serie} \nTurma: {Turma}");
+
     }
 
-    public void RemoverNota(double notaSerie)
-    {
-        Notas.Remove(notaSerie);
-        Console.WriteLine($"Nota {notaSerie} removida com sucesso!");
-    }
+
 
 
     public double CalcularMedia()

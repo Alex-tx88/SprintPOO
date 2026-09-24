@@ -7,11 +7,19 @@ public class Professor:Pessoa
 
 
 
-    public Professor(string nome, string cpf, string telefone, string email , decimal salario): base (nome, cpf, telefone, email)
+    public Professor(string nome, string cpf, string telefone, string email , DateOnly datanascimento, string disciplina ,decimal salario): base (nome, cpf, telefone, email, datanascimento)
     {
         Salario=salario;
         Turma= new List<string>();
+        Disciplina = disciplina;
 
+    }
+
+    public override void ExibirDetalhes()
+    {
+        Console.WriteLine("======= Professor =======");
+        base.ExibirDetalhes();
+        Console.WriteLine($"Salario: {Salario} \nTurma: {Turma} \nDisciplina: {Disciplina}");
     }
 
 
