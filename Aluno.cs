@@ -7,7 +7,7 @@ public class Aluno:Pessoa
     public string Serie{ get; private set;}
     public string Turma{get; private set;}
 
-    public Aluno(string nome, string cpf, long telefone, string email, int matricula, string serie, string turma): base(nome, cpf, telefone, email)
+    public Aluno(string nome, string cpf, string telefone, string email, int matricula, string serie, string turma): base(nome, cpf, telefone, email)
     {
       
         Matricula = matricula;
