@@ -26,3 +26,4 @@ C:\Users\021.885062\GestaoAcademica\GestaoAcademica\obj\Debug\net10.0\refint\Ges
 C:\Users\021.885062\GestaoAcademica\GestaoAcademica\obj\Debug\net10.0\GestaoAcademica.pdb
 C:\Users\021.885062\GestaoAcademica\GestaoAcademica\obj\Debug\net10.0\GestaoAcademica.genruntimeconfig.cache
 C:\Users\021.885062\GestaoAcademica\GestaoAcademica\obj\Debug\net10.0\ref\GestaoAcademica.dll
+C:\Users\021.885062\GestaoAcademica\gestaoacademica\obj\Debug\net10.0\GestaoAcademica.sourcelink.json
